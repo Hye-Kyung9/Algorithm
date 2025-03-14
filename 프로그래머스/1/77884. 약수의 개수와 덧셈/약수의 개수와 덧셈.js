@@ -1,3 +1,18 @@
+// function solution(left, right) {
+//     let result = 0;
+
+//     for (let i = left; i <= right; i++) {
+//         // 제곱수인지 확인 (Math.sqrt(i)로 나눴을 때 정수면 제곱수!)
+//         if (Number.isInteger(Math.sqrt(i))) {
+//             result -= i; // 제곱수면 빼기
+//         } else {
+//             result += i; // 제곱수가 아니면 더하기
+//         }
+//     }
+
+//     return result;
+// }
+
 function solution(left, right) {
     let result = 0;
 
