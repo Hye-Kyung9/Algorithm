@@ -11,6 +11,7 @@ function solution(elements) {
             for (let i = 0; i < length; i++) {
                 sum += extended[start + i];
             }
+            
             sums.add(sum);
         }
     }
